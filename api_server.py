@@ -239,4 +239,4 @@ def ios_check_success():
         
         return jsonify({'result': False, 'message': '충전을 확인하지 못했습니다.'})
 
-app.run(debug=False, host='0.0.0.0', port=80)
+
